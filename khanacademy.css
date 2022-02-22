@@ -17,44 +17,62 @@
   clear: both;
 }
 
-nav {
-  max-width: 1280px;
-  margin: 0 auto;
-  height: 50px;
-  padding-top: 5px;
-}  
+@media only screen and (max-width: 768px) {
+  html {
+      display: block;
+      text-align: center;
+  }
 
-header nav > * {
-  float: left;
-  width: 15%;
-  margin: 0 9%;
-  list-style: none;
+  nav a {
+      display: none;
+  }
+
+  main > section img {
+    width: 60%;
+    margin: 100px 100px;
+  }  
 }
 
-header nav li {
-  float: left;
-  width: 33%;
+@media only screen and (min-width: 768px) {
+  nav {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 50px;
+    padding-top: 5px;
+  }  
+
+  header nav > * {
+    float: left;
+    width: 15%;
+    margin: 0 9%;
+    list-style: none;
+  }
+
+  header nav li {
+    float: left;
+    width: 33%;
+  }
+
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .heroinfo {
+    float: left;
+    width: 30%;
+  }
+
+  img {
+    float: left;
+  }
+
+  main > section h1 {
+    margin-top: 250px;
+  } 
+
+  main > section img {
+    width: 40%;
+    margin: 100px 100px;
+  }  
 }
-
-main {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-.heroinfo {
-  float: left;
-  width: 30%;
-}
-
-img {
-  float: left;
-}
-
-main > section h1 {
-  margin-top: 250px;
-} 
-
-main > section img {
-  width: 40%;
-  margin: 100px 100px;
-}  
