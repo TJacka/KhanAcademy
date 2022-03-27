@@ -1,4 +1,4 @@
-Khan Academy Hero HTML and CSS Layout Exercise
+Khan Academy hero HTML, CSS and media queries layout exercise
 
 Mockup hero image from Khan Academy website initially using floats, then using flexbox.
 
